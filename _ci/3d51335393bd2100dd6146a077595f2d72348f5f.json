@@ -1,0 +1,146 @@
+{
+  "schema": 1,
+  "commit": "3d51335393bd2100dd6146a077595f2d72348f5f",
+  "branch": "main",
+  "state": "pending",
+  "at": "2026-10-31T15:26:06Z",
+  "phases": {
+    "lint": {
+      "verdict": "pass",
+      "build": "newest",
+      "runs": [
+        {
+          "name": "lint",
+          "id": 124574340171,
+          "conclusion": "success",
+          "url": "https://github.com/beauregardhenry/arugula/actions/runs/41213903400/job/124574340171"
+        },
+        {
+          "name": "changes",
+          "id": 124574340067,
+          "conclusion": "success",
+          "url": "https://github.com/beauregardhenry/arugula/actions/runs/41213903400/job/124574340067"
+        },
+        {
+          "name": "suite-changed",
+          "id": 124574340255,
+          "conclusion": "success",
+          "url": "https://github.com/beauregardhenry/arugula/actions/runs/41213903507/job/124574340255"
+        }
+      ]
+    },
+    "build": {
+      "verdict": "pending",
+      "build": "newest",
+      "runs": [
+        {
+          "name": "build",
+          "id": 124574385806,
+          "conclusion": null,
+          "url": "https://github.com/beauregardhenry/arugula/actions/runs/41213903400/job/124574385806"
+        },
+        {
+          "name": "static",
+          "id": 124574385776,
+          "conclusion": null,
+          "url": "https://github.com/beauregardhenry/arugula/actions/runs/41213903400/job/124574385776"
+        },
+        {
+          "name": "clippy",
+          "id": 124574385766,
+          "conclusion": null,
+          "url": "https://github.com/beauregardhenry/arugula/actions/runs/41213903400/job/124574385766"
+        }
+      ]
+    },
+    "test": {
+      "verdict": "pending",
+      "build": "newest",
+      "runs": [
+        {
+          "name": "test",
+          "id": 124574385786,
+          "conclusion": null,
+          "url": "https://github.com/beauregardhenry/arugula/actions/runs/41213903400/job/124574385786"
+        },
+        {
+          "name": "test-2",
+          "id": 124574385747,
+          "conclusion": null,
+          "url": "https://github.com/beauregardhenry/arugula/actions/runs/41213903400/job/124574385747"
+        },
+        {
+          "name": "test-postgres",
+          "id": 124574385801,
+          "conclusion": null,
+          "url": "https://github.com/beauregardhenry/arugula/actions/runs/41213903400/job/124574385801"
+        },
+        {
+          "name": "core",
+          "id": 124574385725,
+          "conclusion": null,
+          "url": "https://github.com/beauregardhenry/arugula/actions/runs/41213903400/job/124574385725"
+        }
+      ]
+    },
+    "e2e": {
+      "verdict": "pending",
+      "build": "newest",
+      "runs": []
+    },
+    "claims": {
+      "verdict": "pending",
+      "build": "newest",
+      "runs": [
+        {
+          "name": "desktop-xvfb",
+          "id": 124574385768,
+          "conclusion": null,
+          "url": "https://github.com/beauregardhenry/arugula/actions/runs/41213903400/job/124574385768"
+        }
+      ]
+    },
+    "macos": {
+      "verdict": "pending",
+      "build": "newest",
+      "runs": [
+        {
+          "name": "macos (test)",
+          "id": 124574385793,
+          "conclusion": null,
+          "url": "https://github.com/beauregardhenry/arugula/actions/runs/41213903400/job/124574385793"
+        },
+        {
+          "name": "macos (webkit)",
+          "id": 124574385827,
+          "conclusion": null,
+          "url": "https://github.com/beauregardhenry/arugula/actions/runs/41213903400/job/124574385827"
+        }
+      ]
+    },
+    "windows": {
+      "verdict": "pending",
+      "build": "newest",
+      "runs": [
+        {
+          "name": "workspace",
+          "id": 124574373998,
+          "conclusion": null,
+          "url": "https://github.com/beauregardhenry/arugula/actions/runs/41213903507/job/124574373998"
+        },
+        {
+          "name": "workspace-clippy",
+          "id": 124574374007,
+          "conclusion": "success",
+          "url": "https://github.com/beauregardhenry/arugula/actions/runs/41213903507/job/124574374007"
+        },
+        {
+          "name": "desktop",
+          "id": 124574372465,
+          "conclusion": "success",
+          "url": "https://github.com/beauregardhenry/arugula/actions/runs/41213903402/job/124574372465"
+        }
+      ]
+    }
+  }
+}
