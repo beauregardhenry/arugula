@@ -3,7 +3,7 @@
   "commit": "3d51335393bd2100dd6146a077595f2d72348f5f",
   "branch": "main",
   "state": "pending",
-  "at": "2026-10-31T15:26:06Z",
+  "at": "2026-10-31T15:27:00Z",
   "phases": {
     "lint": {
       "verdict": "pass",
@@ -119,13 +119,13 @@
       ]
     },
     "windows": {
-      "verdict": "pending",
+      "verdict": "pass",
       "build": "newest",
       "runs": [
         {
           "name": "workspace",
           "id": 124574373998,
-          "conclusion": null,
+          "conclusion": "success",
           "url": "https://github.com/beauregardhenry/arugula/actions/runs/41213903507/job/124574373998"
         },
         {
