@@ -2,8 +2,8 @@
   "schema": 1,
   "commit": "3d51335393bd2100dd6146a077595f2d72348f5f",
   "branch": "main",
-  "state": "pending",
-  "at": "2026-10-31T15:27:00Z",
+  "state": "unbuilt",
+  "at": "2026-11-01T15:15:01Z",
   "phases": {
     "lint": {
       "verdict": "pass",
@@ -30,7 +30,7 @@
       ]
     },
     "build": {
-      "verdict": "pending",
+      "verdict": "unbuilt",
       "build": "newest",
       "runs": [
         {
@@ -51,10 +51,11 @@
           "conclusion": null,
           "url": "https://github.com/beauregardhenry/arugula/actions/runs/41213903400/job/124574385766"
         }
-      ]
+      ],
+      "reason": "aged-out"
     },
     "test": {
-      "verdict": "pending",
+      "verdict": "unbuilt",
       "build": "newest",
       "runs": [
         {
@@ -81,15 +82,17 @@
           "conclusion": null,
           "url": "https://github.com/beauregardhenry/arugula/actions/runs/41213903400/job/124574385725"
         }
-      ]
+      ],
+      "reason": "aged-out"
     },
     "e2e": {
-      "verdict": "pending",
+      "verdict": "unbuilt",
       "build": "newest",
-      "runs": []
+      "runs": [],
+      "reason": "aged-out"
     },
     "claims": {
-      "verdict": "pending",
+      "verdict": "unbuilt",
       "build": "newest",
       "runs": [
         {
@@ -98,10 +101,11 @@
           "conclusion": null,
           "url": "https://github.com/beauregardhenry/arugula/actions/runs/41213903400/job/124574385768"
         }
-      ]
+      ],
+      "reason": "aged-out"
     },
     "macos": {
-      "verdict": "pending",
+      "verdict": "unbuilt",
       "build": "newest",
       "runs": [
         {
@@ -116,7 +120,8 @@
           "conclusion": null,
           "url": "https://github.com/beauregardhenry/arugula/actions/runs/41213903400/job/124574385827"
         }
-      ]
+      ],
+      "reason": "aged-out"
     },
     "windows": {
       "verdict": "pass",
